@@ -1,0 +1,65 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.btn-success {
+    width: 150px;
+}
+
+.btn-danger {
+    width: 150px;
+}
+@media only screen and (max-width:1025px){
+
+    .btn-success {
+        width: 100px;
+        font-size: 14px !important;
+    }
+    
+    .btn-danger {
+        font-size: 14px !important;
+        width: 100px;
+    }
+
+}
+@media only screen and (max-width:500px){
+
+    .btn-success {
+        width: 80px;
+        font-size: 10px !important;
+    }
+    
+    .btn-danger {
+        font-size: 10px !important;
+        width: 80px;
+    }
+@media only screen and (max-width:320px){
+
+    .btn-success {
+        width: 80px;
+        font-size: 9px !important;
+    }
+    
+    .btn-danger {
+        font-size: 9px !important;
+        width: 65px;
+    }
+
+}
+.input-group-append .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.list-group-item {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.list-group-item button {
+    margin-left: 5px;
+}
